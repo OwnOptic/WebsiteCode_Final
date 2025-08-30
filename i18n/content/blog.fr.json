@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "slug": "ultimate-ai-assistant-playbook",
+      "title": "Le Playbook Ultime de l'Assistant IA",
+      "author": "Elliot Margot",
+      "publishDate": "12 novembre 2025",
+      "readTime": "9 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756109004/The_AI-Powered_Assistant_mngjbj.png",
+      "summary": "Un cadre stratégique pour la conception et la création d'assistants IA efficaces, des simples bots FAQ aux copilotes proactifs de niveau entreprise qui apportent une valeur commerciale mesurable.",
+      "tags": ["Stratégie IA", "Copilot Studio", "IA Générative", "Playbook"],
+      "externalUrl": "https://www.linkedin.com/pulse/ultimate-ai-assistant-playbook-step-by-step-guide-elliot-margot-wwfqe/"
+    },
+    {
+      "slug": "playbook-ai-onboarding-assistant",
+      "title": "Playbook : L'Assistant d'Intégration IA",
+      "author": "Elliot Margot",
+      "publishDate": "5 novembre 2025",
+      "readTime": "8 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756109031/AI_onboarding_agent_-_header_e5gnbt.png",
+      "summary": "Apprenez à créer un puissant assistant d'intégration IA avec Copilot Studio. Ce guide couvre la rationalisation des processus RH, l'amélioration de l'engagement des employés et l'automatisation des flux de travail.",
+      "tags": ["IA", "Copilot Studio", "Automatisation", "RH"],
+      "externalUrl": "https://www.linkedin.com/pulse/playbook-ai-onboarding-assistant-elliot-margot-4ukuc"
+    },
+    {
+      "slug": "designing-human-centric-ai-chatbots",
+      "title": "Concevoir une IA centrée sur l'humain : 5 principes pour de meilleurs chatbots",
+      "author": "Elliot Margot",
+      "publishDate": "15 septembre 2025",
+      "readTime": "6 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756108990/Human-Bot_Interaction_lzz5ea.png",
+      "summary": "Allez au-delà des bots de Q&R de base. Cet article explore cinq principes clés pour concevoir des assistants IA centrés sur l'humain avec Copilot Studio et l'IA Générative qui sont utiles, engageants et efficaces.",
+      "tags": ["IA", "Copilot Studio", "UX"],
+      "externalUrl": "https://www.linkedin.com/pulse/designing-human-centric-ai-chatbots-elliot-margot"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+
+{
+    "title": "Hackathon IA de Google : Assistant d'Assurance Gagnant",
+    "subtitle": "Une preuve de concept lauréate d'un hackathon pour un assistant d'IA Générative, conçu pour aider les agents d'assurance à trouver instantanément des informations complexes sur les polices.",
+    "heroImageUrl": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109025/AI_Hackathon_lighthouse_jatpre.jpg",
+    "overview": {
+        "industry": "Assurance",
+        "timeline": "48 Heures",
+        "techStack": "Vertex AI, Gemini 1.5 Pro, GCP"
+    },
+    "content": [
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Le Défi : Surcharge d'Information pour les Agents d'Assurance"
+        },
+        {
+            "type": "html",
+            "value": "<p>Les agents d'assurance font face à un défi de taille : naviguer dans des documents de police vastes et complexes pour trouver des informations spécifiques pour leurs clients. Ce processus est souvent long, inefficace et peut conduire à des réponses incohérentes. Lors d'un hackathon de 48 heures organisé par Google, notre équipe a été mise au défi de créer une solution innovante pour résoudre ce problème critique pour un grand assureur.</p>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "La Solution : Un Assistant d'Agent Alimenté par l'IA"
+        },
+        {
+            "type": "html",
+            "value": "<p>Notre solution était une preuve de concept (POC) pour un assistant IA sophistiqué, construit sur Google Cloud Platform. L'assistant fournit une interface conversationnelle simple où un agent peut poser des questions complexes en langage naturel (par exemple, 'Quelle est la couverture pour les dégâts des eaux dans un sous-sol pour la police numéro 12345 ?') et recevoir une réponse instantanée, précise et sourcée. En exploitant les capacités de raisonnement avancées du modèle Gemini 1.5 Pro dans Vertex AI, notre assistant a pu comprendre le contexte, interroger une base de connaissances de documents de police et synthétiser des réponses claires et fiables.</p>"
+        },
+        {
+            "type": "image",
+            "variant": "simple-caption",
+            "src": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109028/AI_hackathon_presentaiton_s9rjhc.png",
+            "alt": "Présentation de la solution lors du hackathon",
+            "caption": "Présentation de notre solution basée sur l'IA aux juges lors du Hackathon Google."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Processus de Conception et de Développement"
+        },
+        {
+            "type": "html",
+            "value": "<p>Travaillant sous une pression temporelle intense, notre équipe interfonctionnelle a adopté une approche agile et rapide. Nous avons commencé par une session de design thinking pour comprendre en profondeur les besoins de l'utilisateur (l'agent d'assurance). Nous sommes ensuite passés rapidement au prototypage du flux conversationnel et à la construction du backend sur GCP. Le processus impliquait la mise en place d'une base de connaissances sécurisée avec des exemples de documents de police et l'ajustement du prompt système du modèle Gemini pour garantir des réponses précises et dignes de confiance, ce qui est crucial pour un secteur réglementé comme l'assurance.</p>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Caractéristiques et Fonctionnalités Clés"
+        },
+        {
+            "type": "html",
+            "value": "<ul><li><strong>Requêtes en Langage Naturel :</strong> Permet aux agents de poser des questions de manière conversationnelle, comme ils le feraient à un expert humain.</li><li><strong>Réponses Contextuelles :</strong> Le modèle Gemini 1.5 Pro comprend les nuances du jargon de l'assurance et fournit des réponses pertinentes au contexte.</li><li><strong>Informations Sourcées :</strong> Chaque réponse est étayée par une référence directe au document de police source, garantissant l'auditabilité et la confiance.</li><li><strong>Support Multilingue :</strong> Le POC a été conçu pour être multilingue (français, anglais, allemand) afin de soutenir un effectif d'agents diversifié.</li></ul>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Résultats"
+        },
+        {
+            "type": "html",
+            "value": "<p>Notre projet a été un succès retentissant, remportant le premier prix du hackathon. Le POC a démontré efficacement un potentiel de retour sur investissement significatif en réduisant considérablement le temps que les agents passent à chercher des informations, augmentant ainsi leur capacité à servir les clients. Le jury a été particulièrement impressionné par la précision de la solution, son accent sur l'explicabilité (citation des sources) et son applicabilité immédiate à un problème commercial réel.</p>"
+        },
+        {
+            "type": "image",
+            "variant": "simple-caption",
+            "src": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109026/AI_hackathon_our_group_jbudvq.png",
+            "alt": "Notre équipe gagnante au Hackathon IA de Google",
+            "caption": "Notre team célébrant la victoire après 48 heures de collaboration intense et rapide."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Leçons Apprises"
+        },
+        {
+            "type": "html",
+            "value": "<p>Le hackathon a été une expérience d'apprentissage incroyable. Il a mis en évidence la puissance de l'IA Générative pour résoudre des défis d'entreprise complexes lorsqu'elle est ancrée dans un cas d'usage spécifique et à haute valeur ajoutée. Nous avons également appris l'importance de l'itération rapide et la nécessité cruciale d'un prompt système robuste pour garantir que l'IA fonctionne dans des limites sûres et fiables, en particulier dans un environnement à forte conformité.</p>"
+        }
+    ]
+}

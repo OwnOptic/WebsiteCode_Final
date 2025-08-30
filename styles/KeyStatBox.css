@@ -1,0 +1,60 @@
+.key-stat-box {
+    background-color: var(--surface-background);
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 2.5rem 0;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.03), 0 2px 4px -2px rgba(0,0,0,0.03);
+}
+
+.key-stat-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.07), 0 4px 6px -4px rgba(0,0,0,0.07);
+    border-color: var(--interactive-blue);
+}
+
+.key-stat-value {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.1;
+    color: var(--interactive-blue);
+    margin-bottom: 0.25rem;
+}
+
+.key-stat-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--secondary-text);
+}
+
+.key-stat-icon-decoration {
+    position: absolute;
+    bottom: -1.5rem;
+    right: -1rem;
+    color: var(--border-color);
+    opacity: 0.8;
+    transform: rotate(-15deg);
+    transition: all 0.3s ease;
+}
+:root.dark .key-stat-icon-decoration {
+    opacity: 0.3;
+}
+
+
+.key-stat-box:hover .key-stat-icon-decoration {
+    color: var(--interactive-blue);
+    opacity: 0.2;
+    transform: rotate(0deg) scale(1.2);
+}
+:root.dark .key-stat-box:hover .key-stat-icon-decoration {
+    opacity: 0.1;
+}
+
+.key-stat-icon-decoration svg {
+    width: 5rem;
+    height: 5rem;
+}

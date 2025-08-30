@@ -1,0 +1,53 @@
+
+{
+    "catalogue": [
+        {
+            "id": 61,
+            "title": "Étiquetage et Récupération d'Actifs Média",
+            "industry": "Médias et divertissement",
+            "technology": "Power Automate",
+            "miniDescription": "Utilisez l'IA pour étiqueter et cataloguer automatiquement votre vaste bibliothèque d'actifs numériques, les rendant instantanément consultables en langage naturel.",
+            "technicalLevel": 9,
+            "problem": "Un monteur vidéo doit trouver un court clip d'un 'coucher de soleil sur un lac en Suisse' pour une publicité. Il doit parcourir manuellement des heures de séquences dans le système de gestion des actifs numériques (DAM) car les fichiers ont des noms génériques et pas d'étiquettes descriptives.",
+            "value": "Les entreprises de médias gèrent de vastes bibliothèques d'actifs numériques. L'étiquetage manuel de ces actifs est une tâche fastidieuse, et sans un étiquetage approprié, trouver un actif spécifique est presque impossible. Cette solution alimentée par l'IA automatise le processus d'étiquetage.",
+            "roi": "Le ROI se mesure en temps créatif récupéré.\n\n<code>Formule :\nÉconomies Annuelles = (Heures Économisées par Utilisateur par Semaine * Nombre d'Utilisateurs * 52 * Coût Horaire)</code>\n\nExemple : Économise des milliers d'heures de travail manuel. Rend toute la bibliothèque d'actifs consultable et précieuse. Accélère considérablement le processus créatif et de production.",
+            "implementationGuide": "<h5>Le Plan de la Solution : Une Approche Basée sur l'Action Générative de Niveau 1</h5><p>Cette solution combine une analyse alimentée par l'IA avec une interface de recherche conversationnelle.</p><h5>Guide de Mise en Œuvre</h5><ol><li><strong>Configurer les Services Azure AI :</strong> Vous aurez besoin d'un abonnement Azure avec Azure AI Video Indexer.</li><li><strong>Construire le Flux d'Étiquetage :</strong> Déclenchez le flux lorsqu'un fichier est créé dans SharePoint ou Blob Storage. Utilisez l'action HTTP pour appeler l'API de Video Indexer. C'est un processus asynchrone. Une fois le traitement terminé, utilisez une autre action HTTP pour obtenir la sortie JSON. Utilisez l'action Mettre à jour les propriétés du fichier (SharePoint) pour écrire les mots-clés.</li><li><strong>Configurer le Copilote de Recherche :</strong> Pointez une instance de Copilot Studio vers votre bibliothèque DAM/SharePoint en utilisant les Réponses Génératives.</li></ol><h5>Au-delà des Bases (Conseil de Pro)</h5><p>Utilisez les données de transcription. La transcription complète générée par Video Indexer est également consultable. Un journaliste pourrait demander au Copilote : 'Trouve-moi l'interview où le PDG a mentionné le 'Projet Titan'.' Le Copilote peut rechercher dans les transcriptions de tous les fichiers vidéo.</p>"
+        },
+        {
+            "id": 62,
+            "title": "Prédiction et Intervention sur le Désabonnement des Abonnés",
+            "industry": "Médias et divertissement",
+            "technology": "Power Automate",
+            "miniDescription": "Utilisez l'IA pour prédire quels abonnés risquent de résilier et déclenchez automatiquement des offres de rétention ciblées pour les conserver.",
+            "technicalLevel": 8,
+            "problem": "Un abonné de longue date à un service de streaming utilise de moins en moins le service depuis trois mois. L'entreprise ne sait pas qu'il est mécontent jusqu'à ce qu'il clique sur le bouton 'Annuler l'abonnement'. À ce moment-là, il est trop tard pour le sauver.",
+            "value": "Pour les entreprises de médias ou de télécommunications par abonnement, le désabonnement des clients est une menace principale pour les revenus. Identifier les abonnés à risque avant qu'ils ne partent permet à l'entreprise d'intervenir avec des offres de rétention ciblées. Cette solution utilise l'IA pour prédire le désabonnement.",
+            "roi": "Le ROI se mesure en revenus conservés.\nA = Revenu mensuel moyen par abonné.\nB = Nombre d'abonnés à risque identifiés par mois.\nC = Taux de succès de l'offre de rétention (par ex., 20% ou 0,20).\n\n<code>Formule :\nRevenu Mensuel Économisé = A * B * C</code>\n\nExemple : Si le revenu moyen est de 20 $/mois (A), que le système identifie 1 000 abonnés à risque (B), et que l'offre de rétention convainc 20 % d'entre eux de rester (C), l'entreprise économise 4 000 $ de revenus récurrents mensuels.",
+            "implementationGuide": "<h5>Le Plan de la Solution : Un Flux de Travail Proactif Piloté par l'IA</h5><p>Il s'agit d'un flux de travail proactif et piloté par l'IA.</p><h5>Guide de Mise en Œuvre</h5><ol><li><strong>Entraîner le Modèle IA :</strong> C'est la partie la plus critique. Vous avez besoin de données historiques propres sur les anciens abonnés. Utilisez ces données pour entraîner un modèle de prédiction personnalisé dans AI Builder.</li><li><strong>Construire le Flux :</strong> Créez un flux cloud planifié. Utilisez 'Lister les lignes' pour rassembler les données nécessaires. Utilisez une boucle et l'action 'Prédire' d'AI Builder pour obtenir le score de désabonnement. Utilisez une Condition pour vérifier si le score est élevé. Si oui, ajoutez l'action de rétention.</li></ol><h5>Au-delà des Bases (Conseil de Pro)</h5><p>Personnalisez l'intervention. Au lieu d'une remise générique, le flux pourrait analyser l'historique de visionnage du client. S'il regarde beaucoup de science-fiction, l'e-mail de rétention pourrait mettre en avant un blockbuster de science-fiction à venir, rendant l'offre beaucoup plus pertinente.</p>"
+        },
+        {
+            "id": 63,
+            "title": "Traitement des Commandes de Vente Publicitaire",
+            "industry": "Médias et divertissement",
+            "technology": "Power Automate",
+            "miniDescription": "Automatisez l'ensemble du processus de la commande à l'encaissement pour les ventes publicitaires, des vérifications d'inventaire à la facturation.",
+            "technicalLevel": 7,
+            "problem": "Un vendeur de publicité conclut un accord. Il remplit un formulaire papier qui va à l'équipe des opérations publicitaires. L'équipe doit vérifier manuellement si les créneaux publicitaires demandés sont disponibles, puis obtenir l'approbation du directeur des ventes, et enfin réserver la publicité dans le système. Le processus est lent.",
+            "value": "Le traitement des commandes de vente publicitaire implique plusieurs étapes : vérification de l'inventaire, approbation des prix, réservation du créneau, puis génération de la facture. Cette automatisation rationalise l'ensemble du processus.",
+            "roi": "Le ROI se mesure par l'accélération de la reconnaissance des revenus.\n\n<code>Formule :\nValeur = (Valeur de la Reconnaissance Accélérée des Revenus) + (Heures Administratives Économisées * Coût Horaire)</code>\n\nExemple : Accélère considérablement le processus de vente publicitaire. Réduit le risque d'erreurs comme la double réservation. Libère l'équipe des opérations publicitaires.",
+            "implementationGuide": "<h5>Le Plan de la Solution : Une Automatisation de Processus Métier de Bout en Bout</h5><p>Il s'agit d'une automatisation de processus métier de bout en bout.</p><h5>Guide de Mise en Œuvre</h5><ol><li><strong>Accès API :</strong> Vous avez besoin d'un accès API à votre système d'inventaire publicitaire et à votre système financier.</li><li><strong>Construire la Power App :</strong> Créez une application simple et mobile pour les vendeurs.</li><li><strong>Construire le Flux :</strong> Déclenchez depuis la Power App. Utilisez des actions HTTP pour appeler le système d'inventaire. Utilisez une Condition pour vérifier le résultat et une autre pour vérifier si une approbation de prix est nécessaire. Utilisez l'action 'Démarrer et attendre une approbation'.</li></ol><h5>Au-delà des Bases (Conseil de Pro)</h5><p>Automatisez la preuve de performance. Après la diffusion d'une publicité, le système enregistre l'heure exacte. Un flux distinct peut être déclenché par ce journal. Il peut générer automatiquement un rapport de 'preuve de performance' et l'envoyer par e-mail à l'annonceur.</p>"
+        },
+        {
+            "id": 64,
+            "title": "Calcul des Paiements de Redevances",
+            "industry": "Médias et divertissement",
+            "technology": "Power Automate",
+            "miniDescription": "Automatisez le calcul complexe et la génération de relevés pour les paiements de redevances aux artistes, écrivains et partenaires.",
+            "technicalLevel": 7,
+            "problem": "À la fin de chaque trimestre, un analyste financier doit calculer les redevances dues à des centaines de producteurs. Il doit extraire les données de visionnage d'un système, les données de revenus publicitaires d'un autre, puis appliquer manuellement le pourcentage de redevance de chaque contrat. Le processus prend des jours.",
+            "value": "Les entreprises de médias ont souvent des accords complexes pour payer des redevances. Le calcul de ces redevances est une tâche complexe et gourmande en feuilles de calcul. Cette solution automatise le calcul et la génération de relevés.",
+            "roi": "Le ROI se mesure en précision et en efficacité.\n\n<code>Formule :\nÉconomies Annuelles = (Heures Économisées par Trimestre * 4 * Coût Horaire) + (Valeur de la Réduction des Erreurs)</code>\n\nExemple : Économise des centaines d'heures de travail manuel. Augmente la précision et réduit le risque de sur- ou sous-paiement. Améliore les relations avec les partenaires.",
+            "implementationGuide": "<h5>Le Plan de la Solution : Un Flux de Travail Planifié et Intensif en Données</h5><p>Il s'agit d'un flux de travail backend planifié et intensif en données.</p><h5>Guide de Mise en Œuvre</h5><ol><li><strong>Centraliser les Accords :</strong> La clé est d'avoir tous les termes de redevances dans une seule liste structurée que le flux peut interroger.</li><li><strong>Construire le Flux :</strong> Créez un flux cloud planifié. Ajoutez des actions pour obtenir les données de performance. Utilisez une boucle pour itérer sur chaque détenteur de droits. À l'intérieur de la boucle, effectuez le calcul. Utilisez l'action 'Remplir un modèle Microsoft Word' de Word Online pour créer le relevé.</li></ol><h5>Au-delà des Bases (Conseil de Pro)</h5><p>Créez un portail partenaire. Utilisez Power Pages pour construire un portail sécurisé où les détenteurs de droits peuvent se connecter. Le flux peut publier les relevés de redevances directement sur le portail, permettant aux partenaires de consulter les relevés actuels et historiques à la demande.</p>"
+        }
+    ]
+}

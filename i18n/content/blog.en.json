@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "slug": "ultimate-ai-assistant-playbook",
+      "title": "The Ultimate AI Assistant Playbook",
+      "author": "Elliot Margot",
+      "publishDate": "November 12, 2025",
+      "readTime": "9 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756109004/The_AI-Powered_Assistant_mngjbj.png",
+      "summary": "A strategic framework for designing and building effective AI assistants, from simple FAQ bots to proactive, enterprise-grade co-pilots that deliver measurable business value.",
+      "tags": ["AI Strategy", "Copilot Studio", "Generative AI", "Playbook"],
+      "externalUrl": "https://www.linkedin.com/pulse/ultimate-ai-assistant-playbook-step-by-step-guide-elliot-margot-wwfqe/"
+    },
+    {
+      "slug": "playbook-ai-onboarding-assistant",
+      "title": "Playbook: The AI Onboarding Assistant",
+      "author": "Elliot Margot",
+      "publishDate": "November 5, 2025",
+      "readTime": "8 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756109031/AI_onboarding_agent_-_header_e5gnbt.png",
+      "summary": "Learn how to build a powerful AI onboarding assistant with Copilot Studio. This playbook covers streamlining HR processes, improving employee engagement, and automating workflows for maximum efficiency.",
+      "tags": ["AI", "Copilot Studio", "Automation", "HR"],
+      "externalUrl": "https://www.linkedin.com/pulse/playbook-ai-onboarding-assistant-elliot-margot-4ukuc"
+    },
+    {
+      "slug": "designing-human-centric-ai-chatbots",
+      "title": "Designing Human-Centric AI: 5 Principles for Better Chatbots",
+      "author": "Elliot Margot",
+      "publishDate": "September 15, 2025",
+      "readTime": "6 min",
+      "imageUrl": "https://res.cloudinary.com/dapoc7ekn/image/upload/v1756108990/Human-Bot_Interaction_lzz5ea.png",
+      "summary": "Move beyond basic Q&A bots. This article explores five key principles for designing human-centric AI assistants with Copilot Studio and Generative AI that are helpful, engaging, and effective.",
+      "tags": ["AI", "Copilot Studio", "UX"],
+      "externalUrl": "https://www.linkedin.com/pulse/designing-human-centric-ai-chatbots-elliot-margot"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+
+{
+    "title": "Google Hackathon: AI-Powered Insurance Assistant",
+    "subtitle": "A hackathon-winning proof-of-concept for a Generative AI assistant designed to help insurance agents find complex policy information instantly.",
+    "heroImageUrl": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109025/AI_Hackathon_lighthouse_jatpre.jpg",
+    "overview": {
+        "industry": "Insurance",
+        "timeline": "48 Hours",
+        "techStack": "Vertex AI, Gemini 1.5 Pro, GCP"
+    },
+    "content": [
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "The Challenge: Information Overload for Insurance Agents"
+        },
+        {
+            "type": "html",
+            "value": "<p>Insurance agents face a significant challenge: navigating vast and complex policy documents to find specific information for clients. This process is often time-consuming, inefficient, and can lead to inconsistent answers. During a fast-paced 48-hour hackathon hosted by Google, our team was challenged to build an innovative solution to address this critical pain point for a major insurance provider.</p>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "The Solution: An AI-Powered Agent Assistant"
+        },
+        {
+            "type": "html",
+            "value": "<p>Our solution was a Proof of Concept (POC) for a sophisticated AI assistant, built on Google Cloud Platform. The assistant provides a simple conversational interface where an agent can ask complex questions in natural language (e.g., 'What is the coverage for water damage in a basement for policy number 12345?') and receive an instant, accurate, and source-cited answer. By leveraging the advanced reasoning capabilities of the Gemini 1.5 Pro model in Vertex AI, our assistant could understand context, query a knowledge base of policy documents, and synthesize clear, reliable answers.</p>"
+        },
+        {
+            "type": "image",
+            "variant": "simple-caption",
+            "src": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109028/AI_hackathon_presentaiton_s9rjhc.png",
+            "alt": "Presenting the solution at the hackathon",
+            "caption": "Presenting our AI-powered solution to the judges at the Google Hackathon."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Design & Development Process"
+        },
+        {
+            "type": "html",
+            "value": "<p>Working under intense time pressure, our cross-functional team adopted a rapid, agile approach. We started with a design thinking session to deeply understand the user's (the insurance agent's) needs. We then moved quickly to prototype the conversational flow and build the backend on GCP. The process involved setting up a secure knowledge base with sample policy documents and fine-tuning the Gemini model's system prompt to ensure it delivered precise and trustworthy responses, crucial for a regulated industry like insurance.</p>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Key Features & Functionality"
+        },
+        {
+            "type": "html",
+            "value": "<ul><li><strong>Natural Language Queries:</strong> Allows agents to ask questions conversationally, just as they would to a human expert.</li><li><strong>Context-Aware Responses:</strong> The Gemini 1.5 Pro model understands the nuances of insurance jargon and provides contextually relevant answers.</li><li><strong>Source-Cited Information:</strong> Every answer is backed by a direct reference to the source policy document, ensuring auditability and trust.</li><li><strong>Multi-Language Support:</strong> The POC was designed to be multilingual (French, English, German) to support a diverse agent workforce.</li></ul>"
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Results & Outcome"
+        },
+        {
+            "type": "html",
+            "value": "<p>Our project was a resounding success, earning our team the top prize at the hackathon. The POC effectively demonstrated a significant potential for ROI by drastically reducing the time agents spend searching for information, thereby increasing their capacity to serve clients. The judges were particularly impressed with the solution's accuracy, its focus on explainability (citing sources), and its immediate applicability to a real-world business problem.</p>"
+        },
+        {
+            "type": "image",
+            "variant": "simple-caption",
+            "src": "http://res.cloudinary.com/dapoc7ekn/image/upload/v1756109026/AI_hackathon_our_group_jbudvq.png",
+            "alt": "Our winning team at the Google AI Hackathon",
+            "caption": "Our team celebrating the win after a fast-paced and collaborative 48 hours."
+        },
+        {
+            "type": "heading",
+            "level": 3,
+            "text": "Lessons Learned"
+        },
+        {
+            "type": "html",
+            "value": "<p>The hackathon was an incredible learning experience. It highlighted the power of Generative AI to solve complex enterprise challenges when grounded in a specific, high-value use case. We also learned the importance of rapid iteration and the critical need for robust system prompting to ensure the AI operates within safe and reliable boundaries, especially in a compliance-heavy environment.</p>"
+        }
+    ]
+}
